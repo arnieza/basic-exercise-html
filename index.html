@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family:Arial;
+  padding: 10px;
+  background: #EBDEF0;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 5px;
+  font-size: 60px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2 style="font-family:strawberry blossom" "font-size:50px"> A Day of My Life During MCO 
+      </h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2> My Morning Routine</h2>
+      <h5>Apr 20, 2020</h5>
+      <img src="breakfast.jpg" style="height:300px;">
+      <p>In the morning,</p>
+      <p>I usually wake up around 7 in the morning and spend about 10 minutes laying in the bed before get up and straight to the bathroom. After finish, I'll start with my skincare routine that I have been doing long time ago but the result is still the same hm:( <br><br> After finish all the stuff, I head up to the kitchen to make some breakfast. Starting your day with a cup of Mocha is the best things! and also toast.<br><br>After breakfast, I'll get ready for the online classes and my classes usually start at 10 in the morning and end around 12 noon.</p>
+    </div>
+    <div class="card">
+      <h2>Day Routine</h2>
+      <h5>April 20, 2020</h5>
+      <img src="artjournal.jpg" style="height:400px;">
+      <p>Free Time!! </p>
+      <p>After finish my online classes and lunch, I usually spend my free time doing art journal. I started doing art journal since last year and it is really fun. Besides that, I also spend my free time in the afternoon by doing the assessment that have been given by my lecturers. </p>
+    </div><div class="card">
+      <h3>Night Routine</h3>
+      <h6>April 20, 2020</h6>
+      <img src="goodnight.jpg" style="height:400px;">
+      <p>Its time to sleep! zzzz </p>
+      <p> After finish dinner and prayer with family, me and my sisters will help clean the kitchen. Then I usually proceed to complete all the assignments that have been given to me and after that I usually scroll through social media like Instagram, Twitter or Facebook or watch some videos in Youtube.<br> <br> Next, before bed, I brush my teeth and wash my face and get ready all my notes for the next class tomorrow so I don't have to worry the next morning. Then, I set the alarm for the next day and read some things on <a href="https://www.thoughtcatalog.com" target="_blank_"> <b>ThoughtCatalog </b></a> website before I go to sleep. </p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <img src="sayasendiri.jpg" style="height:300px;">
+      <p>Hello there! <br> <br> I'm Arnieza, a twenty-xx years old dreamer and a full time student who loves to collect colourful pen and eat heheh </p>
+    </div>
+    <div class="card">
+      <h3>Chingu</h3>
+      <img src="kawanuitm1.JPG" style="height:150px"><br>
+      <img src="kawanuitm2.jpg" style="height:155px"><br>
+      <img src="kawanuitm3.jpg" style="height:150px">
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p> 
+        <a href="https://www.instagram.com/niecahni" target="_blank_"> Instagram </a> </p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>So.. How about your day during this MCO? :) <br> <br> The END</h2>
+</div>
+
+</body>
+</html>
